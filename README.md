@@ -1,1 +1,2 @@
-# flask_blog_2
+# flask blog
+training project
