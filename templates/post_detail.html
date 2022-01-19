@@ -1,22 +1,19 @@
 {% extends 'base.html' %}
 
 {% block title %}
-{{ article.title}}
+{{ article.title }}
 {% endblock %}
 
 {% block content %}
 <div class="container mt-5 text-primary">
-    <h1> {{ article.title}} </h1>
+    <h1> {{ article.title }} </h1>
 
     <div class="alert alert-info">
-        <p>{{ article.text}}</p>
+        <p>{{ article.text }}</p>
         <p><b> Дата: {{ article.date.date()}}</b></p>
-<<<<<<< HEAD
           <a href="/posts/{{article.id }}/del" class="btn btn-danger">Удалить</a>
           <a href="/posts/{{article.id }}/update" class="btn btn-success">Редактировать</a>
-=======
 
->>>>>>> origin/main
     </div>
 </div>
 {% endblock %}
